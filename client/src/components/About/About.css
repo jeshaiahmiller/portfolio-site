@@ -1,0 +1,52 @@
+body {
+  color: white;
+  text-align: center;
+}
+.about-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+}
+.name {
+  border-bottom: 5px solid rgb(182, 34, 34);
+}
+.skills-title {
+  margin: 80px 0 40px 0;
+  height: 4rem;
+  border-bottom: 5px solid rgb(182, 34, 34);
+}
+.icons {
+  width: 40vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.individual {
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+.individual:hover {
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 1);
+}
+img {
+  width: 5rem;
+}
+.about-body {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+@media (max-width: 575px) {
+  .icons {
+    width: 60vw;
+  }
+}
